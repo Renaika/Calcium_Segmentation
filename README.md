@@ -24,13 +24,22 @@ cd Calcium_Segmentation
 
 Next, to set up your conda environment, run
 ```bash
-conda env create --file=environment.yml
+conda create -n newenv CalciumEnv
 ```
+
 and to activate it
 ```bash
-conda activate astrocyteCalcium
+conda activate CalciumEnv
 ```
-Then you can start jupyter (run `jupyter notebook`).
 
+Now you have to install some packages in order for the notebook to run. The fastest way is via pip: 
+```bash
+pip install napari[all] tk scipy numpy pandas opencv-python connected-components-3d tifffile scikit-learn matplotlib ipywidgets scikit-image notebook
+```
 
-CHECK DETAILS!
+Then you can start jupyter, which will open the folder where the notebook is located. 
+```bash
+jupyter notebook
+```
+
+Now you only have to open the notebook and press run on top of it for the GUI to open. 
