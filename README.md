@@ -16,13 +16,18 @@ Install [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 (On windows, this is included in anaconda and will be available in the anaconda prompt). 
 There are many tutorials online, e.g. [this one](https://www.notion.so/zarkom/Introduction-to-Git-ac396a0697704709a12b6a0e545db049).
 
-Clone this repo and navigate into it:
+Clone this repo and navigate into it (if you have a Github account):
 ```bash
 git clone https://github.com/Renaika/Calcium_Segmentation.git
 cd Calcium_Segmentation
 ```
+If you don't have a Github account, you only have to download the "Master Thesis - Python GUI_V1.ipynb" file into a folder of your choice. 
+Open the Anaconda terminal and go to the folder, where you save the notebook file (Change "\Users\User\Downloads\" to your folder path)
+```bash
+cd \Users\User\Downloads\
+```
 
-Next, to set up your conda environment, run
+Next, you should create a fresh conda environment:
 ```bash
 conda create -n newenv CalciumEnv
 ```
