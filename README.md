@@ -43,3 +43,5 @@ jupyter notebook
 ```
 
 Now you only have to open the notebook and press run on top of it for the GUI to open. 
+
+TODO: Add description of the parameters and recommended values for testing. 
