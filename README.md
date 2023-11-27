@@ -18,8 +18,8 @@ There are many tutorials online, e.g. [this one](https://www.notion.so/zarkom/In
 
 Clone this repo and navigate into it:
 ```bash
-git clone https://github.com/hci-unihd/mlph_sheet01.git
-cd mlph_sheet01
+git clone https://github.com/Renaika/Calcium_Segmentation.git
+cd Calcium_Segmentation
 ```
 
 Next, to set up your conda environment, run
@@ -28,7 +28,7 @@ conda env create --file=environment.yml
 ```
 and to activate it
 ```bash
-conda activate mlph
+conda activate astrocyte
 ```
 Then you can start jupyter (run `jupyter notebook`).
 
