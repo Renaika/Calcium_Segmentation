@@ -28,7 +28,7 @@ conda env create --file=environment.yml
 ```
 and to activate it
 ```bash
-conda activate astrocyte
+conda activate astrocyteCalcium
 ```
 Then you can start jupyter (run `jupyter notebook`).
 
