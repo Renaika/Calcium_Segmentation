@@ -49,4 +49,9 @@ jupyter notebook
 
 Now you only have to open the notebook and press run on top of it for the GUI to open. 
 
+In order to test the software, you can download a test Dataset here: 
+https://drive.google.com/drive/folders/1bOjGZciea4K_-7pFapMeM3odeY7O3FaH?usp=sharing
+
+I would recommend setting the parameters t_end=50 and BKG_Neighbors=20, if you only want to test if the program runs. If you're sure, that it runs on your system and opens Napari with the results, then you can try to see how it works for bigger values, which will take a longer time to compute. 
+
 TODO: Add description of the parameters and recommended values for testing. 
