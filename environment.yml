@@ -1,0 +1,21 @@
+name: astrocyte
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - jupyter
+  - matplotlib
+  - numpy
+  - pandas
+  - scikit-learn
+  - scipy
+  - napari
+  - tk
+  - opencv
+  - ipywidgets
+  - pillow
+  - skimage
+  - cc3d
+  - tifffile
+  - pip:
+    - umap-learn
