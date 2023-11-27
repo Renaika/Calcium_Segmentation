@@ -14,8 +14,9 @@ dependencies:
   - opencv
   - ipywidgets
   - pillow
-  - skimage
-  - cc3d
+  - scikit-image
   - tifffile
   - pip:
+    - pip
     - umap-learn
+    - connected-components-3d
