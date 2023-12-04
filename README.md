@@ -53,7 +53,7 @@ Then you can start jupyter, which will open the folder where the notebook is loc
 jupyter notebook
 ```
 
-Now you only have to open the notebook using `Kernel=CalciumEnv` and run it for the GUI to open. 
+Now you only have to open the notebook. Choose `Kernel=CalciumEnv` and run it for the GUI to open. 
 
 ### Test Dataset
 
