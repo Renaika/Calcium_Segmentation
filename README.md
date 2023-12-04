@@ -38,6 +38,16 @@ and to activate it
 conda activate CalciumEnv
 ```
 
+You should add this Kernel to the jupyter notebook by: 
+```bash
+pip install ipykernel
+```
+
+and running
+```bash
+ipython kernel install --user --name=CalciumEnv
+```
+
 Now you have to install some packages in order for the notebook to run. The fastest way is via pip: 
 ```bash
 pip install napari[all] tk scipy numpy pandas opencv-python connected-components-3d tifffile scikit-learn matplotlib ipywidgets scikit-image notebook openpyxl trackpy
