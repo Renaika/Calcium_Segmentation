@@ -39,7 +39,7 @@ conda activate CalciumEnv
 
 Now you have to install some packages in order for the notebook to run. The fastest way is via pip: 
 ```bash
-pip install napari[all] tk scipy numpy pandas opencv-python connected-components-3d tifffile scikit-learn matplotlib ipywidgets scikit-image notebook openpyxl
+pip install napari[all] tk scipy numpy pandas opencv-python connected-components-3d tifffile scikit-learn matplotlib ipywidgets scikit-image notebook openpyxl trackpy
 ```
 
 Then you can start jupyter, which will open the folder where the notebook is located. 
@@ -54,4 +54,4 @@ https://drive.google.com/drive/folders/1bOjGZciea4K_-7pFapMeM3odeY7O3FaH?usp=sha
 
 I would recommend setting the parameters t_end=50 and BKG_Neighbors=20, if you only want to test if the program runs. If you're sure, that it runs on your system and opens Napari with the results, then you can try to see how it works for bigger values, which will take a longer time to compute. 
 
-TODO: Add description of the parameters and recommended values for testing. 
+TODO: Add description of the parameters and recommended values for testing. /Output will be visualistaion of and an excel file in the same folder as the notebook consitsing of final results of Labels and Area=Volume size
