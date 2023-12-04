@@ -39,7 +39,7 @@ conda activate CalciumEnv
 
 Now you have to install some packages in order for the notebook to run. The fastest way is via pip: 
 ```bash
-pip install napari[all] tk scipy numpy pandas opencv-python connected-components-3d tifffile scikit-learn matplotlib ipywidgets scikit-image notebook
+pip install napari[all] tk scipy numpy pandas opencv-python connected-components-3d tifffile scikit-learn matplotlib ipywidgets scikit-image notebook openpyxl
 ```
 
 Then you can start jupyter, which will open the folder where the notebook is located. 
