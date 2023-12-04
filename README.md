@@ -1,6 +1,6 @@
 # Calcium Segmentation and Tracking Pipeline
 
-This is a trial version of my calcium signalling segmentation and tracking baseline for astrocytes which I constructed for the purpose of my master thesis. 
+This is a trial version of a calcium signalling segmentation and tracking pipeline for astrocytes which we constructed for the purpose of my master thesis. 
 With this tool, you can easily load tif files of astrocyte data in 3D (x,y,t) and apply my pipeline using default or customized parameters.
 Please note that the computation time may take some time, depending on the choice of parameters. 
 Once the process is complete, the program will automatically open napari with all intermediate results, 
@@ -117,3 +117,5 @@ I would recommend setting the parameters `time_start = 350` and `time_end = 450`
   - *Description*: Threshold for filtering short-lived particles in trackpy.
   - *Default*: `3`. 
   - *Note*: Particles tracked for fewer frames than this threshold are discarded.
+
+Master Thesis: **Segmentation and Tracking of Calcium Signals in Astrocytes** by Mandy Kunfeld
