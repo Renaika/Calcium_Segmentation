@@ -30,7 +30,7 @@ cd \Users\User\Downloads\
 
 Next, you should create a fresh conda environment:
 ```bash
-conda create -n CalciumEnv
+conda create -n CalciumEnv python=3.9
 ```
 
 and to activate it
